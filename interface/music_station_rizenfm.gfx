@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_rizenfm_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/GFX_rizenfm_album_art.dds"
+		noOfFrames = 2
+	}
+}

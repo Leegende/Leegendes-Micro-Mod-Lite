@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ace_none"
+		texturefile = "gfx/aces/ace_none.dds"
+	}
+	spriteType = {
+		name = "GFX_ace_m_0"
+		texturefile = "gfx/aces/ace_m_0.dds"
+	}
+	spriteType = {
+		name = "GFX_ace_m_1"
+		texturefile = "gfx/aces/ace_m_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ace_f_0"
+		texturefile = "gfx/aces/ace_f_0.dds"
+	}
+	spriteType = {
+		name = "GFX_ace_f_1"
+		texturefile = "gfx/aces/ace_f_1.dds"
+	}
+}

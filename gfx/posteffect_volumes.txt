@@ -1,0 +1,192 @@
+posteffect_values = {
+	name = standard
+	lut = "gfx/world/colorcorrection.tga"
+	BLOOM_WIDTH = 1.5
+	BLOOM_SCALE = 0.9
+	BRIGHT_THRESHOLD = 0.9
+	tonemap_middlegrey = 0.5
+}
+
+posteffect_values = {
+	name = default
+	inherit = standard
+	lut = "gfx/world/colorcorrection_standard.tga"
+}
+
+posteffect_values = {
+	name = default_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_farrange_night.tga"
+}
+
+posteffect_values = {
+	name = mid_distance
+	inherit = standard
+	lut = "gfx/world/colorcorrection_midrange.tga"
+}
+
+posteffect_values = {
+	name = mid_distance_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_farrange_night.tga"
+}
+
+posteffect_values = {
+	name = max_distance
+	inherit = standard
+	lut = "gfx/world/colorcorrection_farrange.tga"
+}
+
+posteffect_values = {
+	name = max_distance_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_farrange_night.tga"
+	hdr_min_adjustment = 1
+	hdr_max_adjustment = 0.8
+	tonemap_middlegrey = 0.65
+}
+
+posteffect_values = {
+	name = green
+	inherit = standard
+	lut = "gfx/world/colorcorrection_green.tga"
+	tonemap_middlegrey = 0.3
+}
+
+posteffect_values = {
+	name = green_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_green_night3.tga"
+	tonemap_middlegrey = 0.7
+	BLOOM_WIDTH = 2
+	BLOOM_SCALE = 1.5
+	BRIGHT_THRESHOLD = 0.8
+	hdr_min_adjustment = 0.8
+	hdr_max_adjustment = 0.6
+}
+
+posteffect_values = {
+	name = winter_values_day
+	inherit = standard
+	lut = "gfx/world/colorcorrection_winter.tga"
+	tonemap_middlegrey = 0.8
+}
+
+posteffect_values = {
+	name = winter_values_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_winter.tga"
+	tonemap_middlegrey = 0.8
+}
+
+posteffect_values = {
+	name = blue_water
+	inherit = standard
+	lut = "gfx/world/colorcorrection_water.tga"
+	tonemap_middlegrey = 0.5
+}
+
+posteffect_values = {
+	name = blue_water_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_water_night.tga"
+	tonemap_middlegrey = 0.4
+}
+
+posteffect_values = {
+	name = custom_lut
+	inherit = standard
+	lut = "gfx/world/custom_lut.tga"
+}
+
+posteffect_values = {
+	name = green_night_asia
+	inherit = standard
+	lut = "gfx/world/colorcorrection_green_night3.tga"
+	tonemap_middlegrey = 0.45
+	BLOOM_WIDTH = 3
+	BLOOM_SCALE = 1.5
+	BRIGHT_THRESHOLD = 0.9
+	hdr_min_adjustment = 0.38
+}
+
+posteffect_values = {
+	name = winter_values_asia_day
+	inherit = standard
+	lut = "gfx/world/colorcorrection_winter_asia.tga"
+	tonemap_middlegrey = 0.1
+	hdr_min_adjustment = 1
+	hdr_max_adjustment = 0.3
+}
+
+posteffect_values = {
+	name = africa_values
+	inherit = custom_lut
+	BLOOM_SCALE = 0
+	tonemap_middlegrey = 0.4
+}
+
+posteffect_values = {
+	name = africa_values_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_southafrica_night.tga"
+}
+
+posteffect_values = {
+	name = southafrica
+	lut = "gfx/world/colorcorrection_green_night.tga"
+}
+
+posteffect_values = {
+	name = asia_values
+	inherit = standard
+	lut = "gfx/world/colorcorrection_asia.tga"
+	tonemap_middlegrey = 0.65
+}
+
+posteffect_values = {
+	name = japan_values
+	inherit = standard
+	lut = "gfx/world/colorcorrection_japan.tga"
+}
+
+posteffect_values = {
+	name = medither
+	lut = "gfx/world/colorcorrection_medi.tga"
+}
+
+posteffect_values = {
+	name = medither_night
+	inherit = standard
+	lut = "gfx/world/colorcorrection_green_night.tga"
+	tonemap_middlegrey = 0.75
+	BLOOM_WIDTH = 1
+	BLOOM_SCALE = 1.5
+	BRIGHT_THRESHOLD = 0.7
+}
+
+posteffect_volumes = {
+	posteffect_volume = {
+		name = Africa_volume
+		posteffect_values_day = africa_values
+		posteffect_values_night = africa_values_night
+		position = {
+			3115
+			200
+			1025
+		}
+		size = {
+			900
+			600
+			300
+		}
+		fade_distance = 200
+	}
+	posteffect_height_volume = {
+		name = "Base"
+		posteffect_values_day = custom_lut
+		posteffect_values_night = mid_distance_night
+		height = 0
+		fade_distance = 0
+	}
+}

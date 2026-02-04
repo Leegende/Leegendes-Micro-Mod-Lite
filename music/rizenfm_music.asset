@@ -1,0 +1,55 @@
+music = {
+	name = "Intro"
+	file = "Intro.ogg"
+	volume = 0.9
+}
+music = {
+	name = "DesertRoad"
+	file = "DesertRoad.ogg"
+	volume = 0.9
+}
+music = {
+	name = "148NvyvsPettrit_Ben_SHJJ5S1"
+	file = "148NvyvsPettrit_Ben_SHJJ5S1.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Der_Beste"
+	file = "Der_Beste.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Leegende"
+	file = "Leegende.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Rizen"
+	file = "Rizen.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Schwarzgeld"
+	file = "Schwarzgeld.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Pelzmantel"
+	file = "Pelzmantel.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Zweitausendneuner"
+	file = "Zweitausendneuner.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Tracktitel"
+	file = "Tracktitel.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Armaniemblem"
+	file = "Armaniemblem.ogg"
+	volume = 0.9
+}

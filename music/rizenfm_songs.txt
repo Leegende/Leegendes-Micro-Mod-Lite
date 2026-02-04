@@ -1,0 +1,68 @@
+music_station = "rizenfm"
+
+music = {
+	song = "Intro"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "DesertRoad"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "148NvyvsPettrit_Ben_SHJJ5S1"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Der_Beste"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Leegende"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Rizen"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Schwarzgeld"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Pelzmantel"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Zweitausendneuner"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Tracktitel"
+	chance = {
+		factor = 1
+	}
+}
+music = {
+	song = "Armaniemblem"
+	chance = {
+		factor = 1
+	}
+}

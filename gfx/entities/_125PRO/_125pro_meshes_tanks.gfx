@@ -1,0 +1,457 @@
+objectTypes = {
+
+##################################################### AUSTRALIA ##########################################################
+
+### Light -----------------------------------------------------------------------------------------------------------------
+
+#Modra Revolving tank
+	pdxmesh = {
+		name = "AST_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/AST_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "AST_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "AST_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "AST_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#Grasshopper Light Tank
+	pdxmesh = {
+		name = "AST_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/AST_prototype_armor_1.mesh"
+
+		animation = { id = "attack"			type = "AST_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"			type = "AST_prototype_armor_1_idle_animation" }
+		animation = { id = "move"			type = "AST_prototype_armor_1_moving_animation" }
+		animation = { id = "training"		type = "AST_prototype_armor_1_training_animation" }
+		animation = { id = "training2"		type = "AST_prototype_armor_1_training2_animation" }
+		
+		
+
+	}	
+
+##################################################### BELGIUM ##########################################################
+
+#Mk.VI 47 mm
+	pdxmesh = {
+		name = "BEL_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/BEL_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "BEL_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "BEL_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "BEL_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+##################################################### CANADA ##########################################################
+
+#OQF 3.7″ AA on Ram Mounting
+	pdxmesh = {
+		name = "CAN_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/CAN_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "CAN_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "CAN_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "CAN_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+################################################# CZECHOSLOVAKIA ######################################################
+
+#Skoda SK 13
+	pdxmesh = {
+		name = "CZE_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/CZE_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "CZE_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "CZE_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "CZE_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#################################################### ENGLAND #########################################################
+
+#Alecto (SPG)
+	pdxmesh = {
+		name = "ENG_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/ENG_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "ENG_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "ENG_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "ENG_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#Praying Mantis
+	pdxmesh = {
+		name = "ENG_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/ENG_prototype_armor_1.mesh"
+
+		animation = { id = "attack"			type = "ENG_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"			type = "ENG_prototype_armor_1_idle_animation" }
+		animation = { id = "move"			type = "ENG_prototype_armor_1_moving_animation" }
+		
+		
+
+	}	
+
+#FV4005 – Centaur
+	pdxmesh = {
+		name = "ENG_prototype_armor_2_mesh"
+		file = "gfx/models/units/tanks/ENG_prototype_armor_2.mesh"
+
+		animation = { id = "attack"			type = "ENG_prototype_armor_2_attack_animation" }
+		animation = { id = "idle"			type = "ENG_prototype_armor_2_idle_animation" }
+		animation = { id = "move"			type = "ENG_prototype_armor_2_moving_animation" }
+		
+		
+
+	}	
+
+################################################### FRANCE #########################################################
+
+#Perrinelle-Dumay Amphibious Heavy Tank
+	pdxmesh = {
+		name = "FRA_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/FRA_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "FRA_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "FRA_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "FRA_prototype_armor_0_moving_animation" }
+		animation = { id = "amphibious_attack"	type = "FRA_prototype_armor_0_amphibious_attack_animation" }
+		animation = { id = "amphibious_move"	type = "FRA_prototype_armor_0_amphibious_move_animation" }
+		
+		
+
+	}
+
+#Giacomini Tank
+	pdxmesh = {
+		name = "FRA_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/FRA_prototype_armor_1.mesh"
+
+		animation = { id = "attack"			type = "FRA_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"			type = "FRA_prototype_armor_1_idle_animation" }
+		animation = { id = "move"			type = "FRA_prototype_armor_1_moving_animation" }
+		
+		
+
+	}
+
+#AMX Chasseur de char de 90 mm (1946)
+	pdxmesh = {
+		name = "FRA_prototype_armor_2_mesh"
+		file = "gfx/models/units/tanks/FRA_prototype_armor_2.mesh"
+
+		animation = { id = "attack"			type = "FRA_prototype_armor_2_attack_animation" }
+		animation = { id = "idle"			type = "FRA_prototype_armor_2_idle_animation" }
+		animation = { id = "move"			type = "FRA_prototype_armor_2_moving_animation" }
+		
+		
+
+	}
+
+#FCM 12t
+	pdxmesh = {
+		name = "FRA_prototype_armor_3_mesh"
+		file = "gfx/models/units/tanks/FRA_prototype_armor_3.mesh"
+
+		animation = { id = "attack"			type = "FRA_prototype_armor_3_attack_animation" }
+		animation = { id = "idle"			type = "FRA_prototype_armor_3_idle_animation" }
+		animation = { id = "move"			type = "FRA_prototype_armor_3_moving_animation" }
+		
+		
+
+	}	
+
+#Jacquet Assault Train
+	pdxmesh = {
+		name = "FRA_prototype_armor_4_mesh"
+		file = "gfx/models/units/tanks/FRA_prototype_armor_4.mesh"
+
+		animation = { id = "attack"			type = "FRA_prototype_armor_4_attack_animation" }
+		animation = { id = "idle"			type = "FRA_prototype_armor_4_idle_animation" }
+		animation = { id = "move"			type = "FRA_prototype_armor_4_moving_animation" }
+		animation = { id = "move2"			type = "FRA_prototype_armor_4_moving2_animation" }
+		
+		
+
+	}	
+
+################################################### GERMANY ########################################################
+
+#Flakpanzer 341
+	pdxmesh = {
+		name = "GER_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/GER_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "GER_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "GER_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "GER_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+
+#Flakpanzer 8,8 cm PaK 43 Steyr Waffenträger
+	pdxmesh = {
+		name = "GER_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/GER_prototype_armor_1.mesh"
+
+		animation = { id = "attack"			type = "GER_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"			type = "GER_prototype_armor_1_idle_animation" }
+		animation = { id = "move"			type = "GER_prototype_armor_1_moving_animation" }
+		
+		
+
+	}	
+
+########################################### HOLLAND / NETHERLANDS ################################################
+
+#Marmon-Herrington MTLS-1GI4
+	pdxmesh = {
+		name = "HOL_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/HOL_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "HOL_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "HOL_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "HOL_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+################################################### ITALY ########################################################
+
+#Semovente Moto-Guzzi
+	pdxmesh = {
+		name = "ITA_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/ITA_prototype_armor_0.mesh"
+
+		animation = { id = "attack"				type = "ITA_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"				type = "ITA_prototype_armor_0_idle_animation" }
+		animation = { id = "move"				type = "ITA_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#Biemmi Naval Tank
+	pdxmesh = {
+		name = "ITA_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/ITA_prototype_armor_1.mesh"
+
+		animation = { id = "attack"				type = "ITA_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"				type = "ITA_prototype_armor_1_idle_animation" }
+		animation = { id = "move"				type = "ITA_prototype_armor_1_moving_animation" }
+		animation = { id = "amphibious_attack"	type = "ITA_prototype_armor_1_amphibious_attack_animation" }
+		animation = { id = "amphibious_move"	type = "ITA_prototype_armor_1_amphibious_move_animation" }
+		
+		
+
+	}	
+
+#Culqualber and Uolchefit Tank
+	pdxmesh = {
+		name = "ITA_prototype_armor_2_mesh"
+		file = "gfx/models/units/tanks/ITA_prototype_armor_2.mesh"
+
+		animation = { id = "attack"			type = "ITA_prototype_armor_2_attack_animation" }
+		animation = { id = "idle"			type = "ITA_prototype_armor_2_idle_animation" }
+		animation = { id = "move"			type = "ITA_prototype_armor_2_moving_animation" }
+		
+		
+
+	}	
+
+
+
+################################################### JAPAN ########################################################
+
+#So-to
+	pdxmesh = {
+		name = "JAP_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/JAP_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "JAP_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "JAP_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "JAP_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#Type 97 Chi-Ha with Bangalore Torpedo rocket system
+	pdxmesh = {
+		name = "JAP_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/JAP_prototype_armor_1.mesh"
+
+		animation = { id = "attack"			type = "JAP_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"			type = "JAP_prototype_armor_1_idle_animation" }
+		animation = { id = "move"			type = "JAP_prototype_armor_1_moving_animation" }
+		animation = { id = "training"		type = "JAP_prototype_armor_1_training_animation" }
+		
+		
+
+	}	
+
+################################################### POLAND ########################################################
+
+#Automobile Gun Carriage
+	pdxmesh = {
+		name = "POL_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/POL_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "POL_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "POL_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "POL_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+################################################### SOVIET ########################################################
+
+#GAZ-68 / KSP-77
+	pdxmesh = {
+		name = "SOV_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/SOV_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "SOV_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "SOV_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "SOV_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#SMK
+pdxmesh = {
+	name = "SOV_prototype_armor_1_mesh"
+	file = "gfx/models/units/tanks/SOV_prototype_armor_1.mesh"
+
+	animation = { id = "attack"			type = "SOV_prototype_armor_1_attack_animation" }
+	animation = { id = "idle"			type = "SOV_prototype_armor_1_idle_animation" }
+	animation = { id = "move"			type = "SOV_prototype_armor_1_moving_animation" }
+	
+	
+
+}
+
+#Gremyakin’s Medium Tank (STG)
+	pdxmesh = {
+		name = "SOV_prototype_armor_2_mesh"
+		file = "gfx/models/units/tanks/SOV_prototype_armor_2.mesh"
+
+		animation = { id = "attack"			type = "SOV_prototype_armor_2_attack_animation" }
+		animation = { id = "idle"			type = "SOV_prototype_armor_2_idle_animation" }
+		animation = { id = "move"			type = "SOV_prototype_armor_2_moving_animation" }
+		
+		
+
+	}	
+
+#2B1 Oka
+	pdxmesh = {
+		name = "SOV_prototype_armor_3_mesh"
+		file = "gfx/models/units/tanks/SOV_prototype_armor_3.mesh"
+
+		animation = { id = "attack"			type = "SOV_prototype_armor_3_attack_animation" }
+		animation = { id = "idle"			type = "SOV_prototype_armor_3_idle_animation" }
+		animation = { id = "move"			type = "SOV_prototype_armor_3_moving_animation" }
+		
+		
+
+	}	
+
+#################################################### USA #########################################################
+
+#T82 howitzer motor carriage
+	pdxmesh = {
+		name = "USA_prototype_armor_0_mesh"
+		file = "gfx/models/units/tanks/USA_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "USA_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "USA_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "USA_prototype_armor_0_moving_animation" }
+		
+		
+
+	}	
+
+#3-inch gun motor carriage t1
+	pdxmesh = {
+		name = "USA_prototype_armor_1_mesh"
+		file = "gfx/models/units/tanks/USA_prototype_armor_1.mesh"
+
+		animation = { id = "attack"			type = "USA_prototype_armor_1_attack_animation" }
+		animation = { id = "idle"			type = "USA_prototype_armor_1_idle_animation" }
+		animation = { id = "move"			type = "USA_prototype_armor_1_moving_animation" }
+		
+		
+
+	}
+
+#T43E1
+	pdxmesh = {
+		name = "USA_prototype_armor_2_mesh"
+		file = "gfx/models/units/tanks/USA_prototype_armor_2.mesh"
+
+		animation = { id = "attack"			type = "USA_prototype_armor_2_attack_animation" }
+		animation = { id = "idle"			type = "USA_prototype_armor_2_idle_animation" }
+		animation = { id = "move"			type = "USA_prototype_armor_2_moving_animation" }
+		
+		
+
+	}
+
+#M-V-Yoh
+	pdxmesh = {
+		name = "USA_prototype_armor_3_mesh"
+		file = "gfx/models/units/tanks/USA_prototype_armor_3.mesh"
+
+		animation = { id = "attack"			type = "USA_prototype_armor_3_attack_animation" }
+		animation = { id = "idle"			type = "USA_prototype_armor_3_idle_animation" }
+		animation = { id = "move"			type = "USA_prototype_armor_3_moving_animation" }
+		
+		
+
+	}
+
+#Cobra LCCCV
+	pdxmesh = {
+		name = "USA_prototype_armor_4_mesh"
+		file = "gfx/models/units/tanks/USA_prototype_armor_4.mesh"
+
+		animation = { id = "attack"			type = "USA_prototype_armor_4_attack_animation" }
+		animation = { id = "idle"			type = "USA_prototype_armor_4_idle_animation" }
+		animation = { id = "move"			type = "USA_prototype_armor_4_moving_animation" }
+		
+		
+
+	}
+
+#T52 Multiple Gun motor carriage
+	pdxmesh = {
+		name = "USA_prototype_armor_5_mesh"
+		file = "gfx/models/units/tanks/USA_prototype_armor_5.mesh"
+
+		animation = { id = "attack"			type = "USA_prototype_armor_5_attack_animation" }
+		animation = { id = "idle"			type = "USA_prototype_armor_5_idle_animation" }
+		animation = { id = "move"			type = "USA_prototype_armor_5_moving_animation" }
+		
+
+	}
+
+}

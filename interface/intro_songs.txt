@@ -1,0 +1,5 @@
+song = {
+    name = "DDC"
+    chance = 100
+    always_on = yes
+}
